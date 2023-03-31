@@ -1,0 +1,55 @@
+body {
+  font-family: "Nanum Pen Script", cursive;
+}
+
+html {
+  background-color: rgb(255, 222, 183);
+}
+
+.header-btn li {
+  display: inline;
+  list-style: none; /*점없애기*/
+  margin: 60px 60px 100px 40px;
+}
+
+.header-btn li a {
+  color: rgb(253, 253, 253);
+}
+
+.header-menu {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 600;
+
+  text-align: center;
+}
+
+/* section */
+
+.sec {
+  text-align: center;
+}
+
+.sec article {
+  width: 500px;
+  height: 550px;
+  margin: 0 auto;
+}
+
+.sec p {
+  font-size: 28px;
+  color: rgb(78, 78, 78);
+}
+
+.sec p span {
+  font-size: 22px;
+  color: rgb(131, 131, 131);
+}
+.card-img img {
+  width: 500px;
+  height: 600px;
+  object-fit: cover;
+
+  border-radius: 20px;
+  border: 3.5px solid rgb(248, 164, 108);
+}
